@@ -417,6 +417,91 @@
         <img src="./src/assets/images/services.jpg" alt="services image" />
       </div>
     </section>
+
+    <!-- Contact-form -->
+    <section id="contact-form">
+      <div class="container">
+        <h2 class="contact-form__title">ー　導入事例　ー</h2>
+
+        <form action="#" class="contact-form__container">
+          <div class="contact__form-intro">
+            <h3 class="contact-form__intro-title">お問い合わせ内容</h3>
+
+            <p class="contact-form__intro-text">
+              お問い合わせには、以下の必須項目の入力をお願いいたします。
+            </p>
+          </div>
+
+          <div class="contact__form-fields">
+            <div class="contact__form-inputs">
+              <label for="last-name">
+                <p>姓</p>
+                <input required type="text" name="last-name" id="last-name" />
+              </label>
+              <label for="first-name">
+                <p>名</p>
+                <input required type="text" name="first-name" id="first-name" />
+              </label>
+              <label for="company-name">
+                <p>会社・組織名</p>
+                <input
+                  required
+                  type="text"
+                  name="company-name"
+                  id="company-name"
+                />
+              </label>
+              <label for="email">
+                <p>メールアドレス</p>
+                <input required type="email" name="email" id="email" />
+              </label>
+              <label for="email2">
+                <p>メールアドレス</p>
+                <input required type="email" name="email2" id="email2" />
+              </label>
+              <label for="number">
+                <p>電話番号</p>
+                <input required type="text" name="number" id="number" />
+              </label>
+            </div>
+
+            <label for="inquiry" class="contact__form-textarea">
+              <p>お問い合わせ内容</p>
+
+              <textarea name="inquiry" id="inquiry" required></textarea>
+            </label>
+          </div>
+
+          <div class="contact-form__bottom">
+            <div class="privacy-section">
+              <h3>個人情報の取り扱いについて</h3>
+
+              <p class="privacy__confirm-text">確認欄</p>
+
+              <div class="privacy-checkbox">
+                <input type="checkbox" id="privacy-consent" required />
+                <label for="privacy-consent"
+                  >個人情報の取扱いについて、同意の上送信します。原則としていただいた個人情報は、第三者に提供することはございません。</label
+                >
+              </div>
+
+              <div class="privacy-link">
+                当社の個人情報保護に関する取り組みについては、<a href="#"
+                  >プライバシーポリシーの個人情報の取り扱いについて</a
+                >
+                <span
+                  >をご覧ください。 以上の個人情報の利用目的等にご同意いただける場合は、入力内容を送信ください。 入力された情報は、当社委託先にて管理されます。</span
+                >
+              </div>
+            </div>
+
+            <div class="form-submit-btn">
+              <button type="submit">確認</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 
   <script type="module" src="src/js/main.js"></script>
