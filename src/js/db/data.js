@@ -38,3 +38,35 @@ export const problemsCards = [
     ],
   },
 ];
+
+// Savings
+export const savingsCards = [
+  {
+    heading: "毎月手動で送っていた請求書送付を自動化",
+    title: "年100万円の削減",
+    statsTitle: "追加10時間",
+    statsText: "作業時間 30時間",
+    hours: "作業時間 30時間",
+  },
+  {
+    heading: "毎月手動で送っていた請求書送付を自動化",
+    title: "年100万円の削減",
+    statsTitle: "追加10時間",
+    statsText: "作業時間 30時間",
+    hours: "作業時間 30時間",
+  },
+  {
+    heading: "毎月手動で送っていた請求書送付を自動化",
+    title: "年100万円の削減",
+    statsTitle: "追加10時間",
+    statsText: "作業時間 30時間",
+    hours: "作業時間 30時間",
+  },
+  {
+    heading: "毎月手動で送っていた請求書送付を自動化",
+    title: "年100万円の削減",
+    statsTitle: "追加10時間",
+    statsText: "作業時間 30時間",
+    hours: "作業時間 30時間",
+  },
+];
