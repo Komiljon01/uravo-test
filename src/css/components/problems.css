@@ -1,0 +1,53 @@
+#problems {
+  padding-block: 80px;
+  background-color: #f4f9f8;
+}
+
+.problems__title {
+  font-size: 32px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.problems__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.problem__card {
+  border-radius: 5px;
+  background: var(--white);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.problem__card-top {
+  padding: 10px;
+  background: var(--green);
+  border-radius: 5px 5px 0 0;
+}
+
+.problem__card-top {
+  color: var(--white);
+  font-size: 24px;
+  text-align: center;
+}
+
+.problem__lists {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.problem__list-item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}

@@ -1,6 +1,6 @@
 import { navbarLinks } from "../db/data.js";
 
-export function renderNavbar(ulSelector = ".navbar__menu") {
+export function renderNavbar(ulSelector) {
   const ul = document.querySelector(ulSelector);
 
   navbarLinks.forEach((link) => {
