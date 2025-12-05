@@ -1,4 +1,5 @@
 import { renderClients } from "./modules/clients.js";
+import { renderIntegrations } from "./modules/integrations.js";
 import { renderManagementFeatures } from "./modules/management-features.js";
 import { renderNavbar } from "./modules/navbar.js";
 import { renderOnboardingSteps } from "./modules/onboarding-process.js";
@@ -12,4 +13,5 @@ document.addEventListener("DOMContentLoaded", () => {
   renderOnboardingSteps(".onboarding-process__cards");
   renderClients(".clients__cards");
   renderManagementFeatures(".management-features__cards");
+  renderIntegrations();
 });
